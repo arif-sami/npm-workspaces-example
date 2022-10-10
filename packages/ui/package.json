@@ -1,0 +1,31 @@
+{
+    "name": "@mf-fe-shared/ui",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/cjs/index.js",
+    "module": "lib/esm/index.js",
+    "files": [
+        "lib"
+    ],
+    "types": "lib/index.d.ts",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^22.0.2",
+        "@rollup/plugin-node-resolve": "^14.1.0",
+        "@rollup/plugin-typescript": "^8.5.0",
+        "@types/react": "^18.0.21",
+        "rollup": "^2.79.1",
+        "rollup-plugin-dts": "^4.2.2",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-terser": "^7.0.2",
+        "tslib": "^2.4.0"
+    },
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "test": "echo \"tests of components are succesfull\""
+    },
+    "author": "",
+    "license": "ISC"
+}

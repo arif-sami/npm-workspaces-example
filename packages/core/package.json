@@ -1,0 +1,16 @@
+{
+    "name": "@mf-fe-shared/core",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"tests of components are succesfull\""
+    },
+    "author": "",
+    "license": "ISC"
+}

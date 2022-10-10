@@ -1,0 +1,16 @@
+{
+    "name": "customer-journey-script",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "dependencies": {
+        "@mf-fe-shared/components": "*"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "build": "webpack --config webpack.config.prod.js",
+        "test": "echo \"tests of components are succesfull\""
+    },
+    "author": "",
+    "license": "ISC"
+}

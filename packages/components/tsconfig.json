@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "sourceMap": false,
+        "strict": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "removeComments": true,
+        "declaration": true
+    },
+    "include": ["src", "@types"],
+    "exclude": ["dev", "node_modules"]
+}

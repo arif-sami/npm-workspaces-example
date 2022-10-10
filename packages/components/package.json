@@ -1,0 +1,35 @@
+{
+    "name": "@mf-fe-shared/components",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "dependencies": {
+        "@mf-fe-shared/core": "*",
+        "@mf-fe-shared/ui": "*",
+        "react": "^17.0.2"
+    },
+    "devDependencies": {
+        "css-loader": "^6.7.1",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.1",
+        "sass": "^1.55.0",
+        "sass-loader": "^13.1.0",
+        "style-loader": "^3.3.1",
+        "terser-webpack-plugin": "^5.3.6",
+        "ts-loader": "^9.4.1",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.1"
+    },
+    "scripts": {
+        "build": "webpack --config webpack.config.prod.js",
+        "dev": "webpack serve --open --config webpack.config.dev.js",
+        "test": "echo \"tests of components are succesfull\""
+    },
+    "author": "",
+    "license": "ISC"
+}
